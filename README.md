@@ -19,3 +19,9 @@ He afegit el codi de Read.py. (Crea un diccionari de diccionaris i retorna la ve
 He afegit el codi de Main.py. (Accedeix al diccionari creat a read i basicament l'envia a la instancia de FastAPI que hem creat perque es pugui visualitzar)
 
 ![5](./CapturesREADME/5.png)
+
+He carregat el uvicorn i podem veure que la informació és visible
+
+![6](./CapturesREADME/6.png)
+
+![7](./CapturesREADME/7.png)
