@@ -3,3 +3,7 @@
 He creat l'estructura de fitxers sense codi.
 
 ![1](./CapturesREADME/1.png)
+
+He afegit el codi de connect.py.
+
+![2](./CapturesREADME/1.png)
