@@ -15,3 +15,7 @@ He afegit el codi de ReadSchema.py. (Crea un schema i genera diccionaris unics p
 He afegit el codi de Read.py. (Crea un diccionari de diccionaris i retorna la versió en llista dels diccionaris utilitzant ReadSchema.py)
 
 ![4](./CapturesREADME/4.png)
+
+He afegit el codi de Main.py. (Accedeix al diccionari creat a read i basicament l'envia a la instancia de FastAPI que hem creat perque es pugui visualitzar)
+
+![5](./CapturesREADME/5.png)
