@@ -11,3 +11,7 @@ He afegit el codi de Connect.py. (Connexió a la base de dades)
 He afegit el codi de ReadSchema.py. (Crea un schema i genera diccionaris unics per representar a tots els usuaris en forma de llista)
 
 ![3](./CapturesREADME/3.png)
+
+He afegit el codi de Read.py. (Crea un diccionari de diccionaris i retorna la versió en llista dels diccionaris utilitzant ReadSchema.py)
+
+![4](./CapturesREADME/4.png)
