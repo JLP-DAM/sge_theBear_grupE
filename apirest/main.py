@@ -33,9 +33,14 @@ async def read_user(database:Session = Depends(get_database)):
 
 @app.post("/users/", response_model=dict)
 async def create_user(name: str, email: str, database:Session = Depends(get_database)):
-    database_user = User(name=name, email=email)
-    database.add(database_user)
-    database.commit()
-    database.refresh(database_user)
+    user.create_user(name, email, database)
 
-    return {"Created user successfully"}
+    return {"message": "Created user successfully"}
+
+@app.put("/users/", response_model=dict)
+async def update_user(id: int, name: str, email: str, database:Session = Depends(get_database)):
+    return user.update_user(id, name, email, database)
+
+@app.delete("/users/", response_model=dict)
+async def update_user(id: int, database:Session = Depends(get_database)):
+    return user.delete_user(id, database)

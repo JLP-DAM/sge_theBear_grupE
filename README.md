@@ -59,3 +59,16 @@ Podem veure que apareixen, escriure i llegir dels endpoints.
 ![13](./CapturesREADME/13.png)
 ![14](./CapturesREADME/14.png)
 ![15](./CapturesREADME/15.png)
+
+# CRUD Taula User
+
+Podem veure que l'Update funciona (base de dades, abans, fem el app.put i després)
+
+![16](./CapturesREADME/16.png)
+![17](./CapturesREADME/17.png)
+![18](./CapturesREADME/18.png)
+
+Podem veure que el Delete funciona (ens basem en la captura anterior per referir-nos a l'estat inicial de la base de dades)
+
+![19](./CapturesREADME/19.png)
+![20](./CapturesREADME/20.png)
